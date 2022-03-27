@@ -9,7 +9,7 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
-// Time complexity - O(N)
+// Time complexity - O(log N)
 // Space complexity - O(1)
  var lowestCommonAncestor = function(root, p, q) {
     if(!root || root == p || root == q) {
