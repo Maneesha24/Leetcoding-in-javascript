@@ -1,0 +1,19 @@
+{
+  "name": "leetcoding-in-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test.js --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maneesha24/Leetcoding-in-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maneesha24/Leetcoding-in-javascript/issues"
+  },
+  "homepage": "https://github.com/Maneesha24/Leetcoding-in-javascript#readme"
+}
