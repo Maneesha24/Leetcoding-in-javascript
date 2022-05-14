@@ -33,12 +33,10 @@ var numPairsDivisibleBy60 = function(time) {
     for (let i = 0; i < time.length; i++) {
 
         let val = time[i] % 60;
-        console.log("time =", time[i], val)
         result += songArr[(60 - val) % 60];
         songArr[val] += 1;
     }
-    // return result;
+    return result;
 };
 
-// [30,20,150,100,40]
 module.exports = numPairsDivisibleBy60;

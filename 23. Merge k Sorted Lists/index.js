@@ -7,6 +7,13 @@
  */
 // Time complexity - O(N * K)
 // Space complexity - O(1)
+class ListNode {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
 var mergeKLists = function (lists) {
 
     if (!lists.length) {
